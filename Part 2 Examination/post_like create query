@@ -1,0 +1,5 @@
+CREATE TABLE `post_likes` (
+`post_id` INT unsigned NOT NULL,
+`user_id` INT unsigned NOT NULL,
+`created_at` TIMESTAMP NOT NULL
+);
